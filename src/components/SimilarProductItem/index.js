@@ -1,8 +1,8 @@
 import './index.css'
 
 const SimilarProductItem = props => {
-  const {productDetails} = props
-  const {title, brand, imageUrl, rating, price} = productDetails
+  const {ProductDetails} = props
+  const {title, brand, imageUrl, rating, price} = ProductDetails
 
   return (
     <li className="similar-product-item">
